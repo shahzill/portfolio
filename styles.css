@@ -98,43 +98,35 @@ body {
 }
 
 
+
 .container3{
+    
     background-image: url("imgs/BK2.png");
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
+    
+}
+
+.con3written{
     color: white;
     margin-left: 5%;
     width: 100%;
-    height: 60vh;
+    height: 30vh;
     text-align: left;
-
     
 }
 
 
-.emoji{
-    width: 50%;
-}
-.emoji img{
-    width: 100%;
-    height: 20vh;
-    object-fit:contain;
-    
-}
 .container4{
-    background-image: url("imgs/BK4.png");
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-top: -3%;
+    background-color: #333;
     width: 100%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .con4written{
     color: white;
-    margin: 5%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
