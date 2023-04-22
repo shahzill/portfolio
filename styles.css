@@ -415,7 +415,7 @@ ul li a{
     }
 }
 
-@media(max-width:790px){
+@media(max-width:850px){
     h1{
         font-size: 30px;
     }
