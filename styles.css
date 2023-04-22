@@ -415,44 +415,18 @@ ul li a{
     }
 }
 
-@media(max-width:700px){
+@media(max-width:790px){
     h1{
         font-size: 30px;
     }
     h2{
         font-size: 20px;
     }
-    .contianer6{
-        margin: 50px auto;
-    }
-    .container6::after{
-        left: 10%
-    }
-    .container7{
-        width: 100%;
-        padding-left: 2%;
-        padding-right: 2%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
 
-    .left{
-        left: 10%;
-    }
-
-    .right{
-        left: 15%;
-    }
     
 }
 
-@media(max-width:500px){
-    h1{
-        font-size: 30px;
-    }
-    h2{
-        font-size: 20px;
-    }
+@media(max-width:680px){
     .contianer6{
         margin: 50px auto;
     }
@@ -475,6 +449,7 @@ ul li a{
         left: 15%;
     }
 }
+
 
 
 
