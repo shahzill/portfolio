@@ -4,7 +4,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Chivo Mono', monospace;
-    overflow-x: hidden;
+    
 }
 
 .nav{
@@ -102,7 +102,7 @@ body {
 .container3{
     
     background-image: url("imgs/BK2.png");
-    width: 100%;
+    width: 80%;
     height: 70vh;
     background-size: contain;
     background-repeat: no-repeat;
@@ -192,6 +192,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -212,6 +213,135 @@ body {
     justify-content: center;
     padding: 1%;
 }
+.container6{
+    width: 100%;
+    height: auto;
+    position: relative;
+} 
+.container7{
+    position: relative;
+    width: 43%;
+    background: #333;
+    
+}
+
+.container8{
+    text-align: center;
+}
+
+
+.experience{
+    padding:20px 30px;
+    background: white;
+    position: relative;
+    color: black;
+    border-radius: 6px;
+
+}
+
+.left{
+    left: 0;
+    margin-left: 5%;
+
+}
+
+.right{
+    left: 52%;
+    margin-right: 5%;
+}
+
+.container6::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+}
+
+/* 
+
+ .container6{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+ .container6 ul::after{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+} 
+.container6 ul{
+    list-style: none;
+}
+ .container6 ul li{
+    width: 50%;
+    height: auto;
+    padding: 15px 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 25px rgba(51, 51, 51, 0.192);
+    position: relative;
+    z-index: 99;
+} 
+ 
+.container6 ul li:nth-child(odd){
+    float: left;
+    clear: right;
+
+}
+.container6 ul li:nth-child(odd) .date{
+    right: 20px;
+}
+.container6 ul li:nth-child(even){
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+} 
+ .container6 ul li:nth-child(4){
+    margin-bottom: 0;
+}
+.container6 ul li .title{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(106, 6, 236);
+} 
+ul li p{
+    font-size: 15px;
+    color: #444;
+    margin: 7px 0;
+    line-height: 23px;
+}
+ul li a{
+    font-size: 15px;
+    color: rgb(106, 6, 236);
+    text-decoration: none;
+} 
+
+.container6 ul li:nth-child(odd) .circle{
+    right: -30px;
+    transform: translate(50%, -50%);
+}
+.container6 ul li:nth-child(even) .circle{
+    left: -30px;
+    transform: translate(-50%, -50%);
+} 
+
+ */
+
+
+
+
 
 
 
@@ -247,6 +377,48 @@ body {
 
 
 
+/* 
 
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Timeline</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+            height: auto;
+            background-color: rgb(245, 245, 245);
+            font-family: poppins;
+            padding: 50px 0;
+            display: grid;
+            place-items: center;
+        }
+        .main .heading{
+            font-size: 27px;
+            font-weight: 500;
+            color: rgb(106, 6, 236);
+            position: relative;
+            margin-bottom: 80px;
+        }
+        .heading::after{
+            content: " ";
+            position: absolute;
+            width: 50%;
+            height: 4px;
+            left: 50%;
+            bottom: -5px;
+            background-image: linear-gradient(to right, rgb(106, 6, 236), rgb(220, 0, 240));
+            transform: translateX(-50%);
+        }
 
-
+        /* Container Css Start  */
+ 
