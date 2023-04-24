@@ -11,18 +11,18 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <nav class="nav">
-        <a>
+        <a href="#Home">
             Home
         </a>
         <ul>
             <li>
-                Me
+                <a href="#AboutMe">About Me</a>
             </li>
             <li>
-                Experience
+                <a href="#Experience">Experience</a>
             </li>
             <li>
-                Projects
+                <a href="#Project">Projects</a>
             </li>
         </ul>
     </nav>
@@ -31,7 +31,7 @@
         
     <div class="container2">
         
-        <h2>Hey there!</h2>
+        <h2 id="Home">Hey there!</h2>
         <p class="intro1">If you can dream it, you can achieve it </p> 
         <p class="intro2">4th year Software Engineering at the University of Calgary. </p> 
         <div class="icon">
@@ -57,9 +57,22 @@
         <div class="con3written">
         <h2>Get to know me!</h2>
         <ul>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Projects</li>
+            <li><a href="#AboutMe">About Me</a></li>
+            <li><a href="#TechStack">Tech Stack</a></li>
+            <li><a href="#Experience">Experience</a>
+                <ul>
+                    <li><a href="#LondonDrugs">Tech Specialist</a></li>
+                    <li><a href="#PSS">Vice President of Events</a></li>
+                    <li><a href="#Temple">IT Administrator</a></li>
+                    <li><a href="#PU">Data Analyst Student Intern</a></li>
+                </ul>    
+            </li>
+            <li><a href="#Project">Projects</a>
+                <ul>
+                    <li><a href="#RentMyRide">RentMyRide</a></li>
+                    <li><a href="#StudentHub">Uofc StudentHub</a></li>
+                </ul> 
+            </li> 
         </ul>
     </div> 
     
@@ -69,10 +82,11 @@
     <div class="container4" data-aos="fade" data-aos-once="true">
         
         <div class="con4written">
-        <h2>About Me</h2>
-        <p>Hi! I am Shahzill, its nice to meet you. I am currently in my 4th year of Software Engineering at the Univesity of Calgary. I am passionate about
-            developing, coding and solving real world problems using the skills I have acquired. In my free time, I like to work on cars, play sports and hangout 
-            with my friends to keep myself refreshed. My goals are to polish and gain as many skills as i can and become the best of myself. 
+        <h2 id="AboutMe">About Me</h2>
+        <p>Hi! I am Shahzill, it's nice to meet you. I am currently in my 4th year of Software Engineering at the Univesity of Calgary. 
+            I am passionate about developing, coding, and solving real-world problems using the skills I have acquired. In my free time, 
+            I like to work on cars, play sports, and hang out with my friends to keep myself refreshed. My goals are to polish and gain as many 
+            skills as I can and become the best of myself.
         </p>
         
         </div> 
@@ -82,7 +96,7 @@
 
     <div class="container5">
 
-    <h2 data-aos="fade" data-aos-once="true">Tech Stack</h2>
+    <h2 id="TechStack" data-aos="fade" data-aos-once="true">Tech Stack</h2>
     <div class="allStack" data-aos="fade" data-aos-once="true">
     <div class="stack">
         <ion-icon class="stackIconJS" name="logo-javascript"></ion-icon>
@@ -141,12 +155,12 @@
     </div>
 
     <div class="container8" data-aos="fade" data-aos-once="true">
-        <h2>Experience</h2>
+        <h2 id="Experience">Experience</h2>
     </div>
     <br>
     
 
-    <div class="container6" data-aos="fade" data-aos-once="true">
+    <div class="container6" id="LondonDrugs" data-aos="fade" data-aos-once="true">
 
         <div class="container7 left" data-aos="fade" data-aos-once="true">
             <div class="experience LD">
@@ -162,12 +176,12 @@
                 <h4></h4>
                 <p>I dealt with up to 50 customers in a single day to solve their technical problems providing expert advice.
                 Moreover, I stayed up to date with the latest technology by attending workshops organized by London Drugs.
-                The administration commended me for being the quickest learning employee they have ever had.</p>
+                The administration commended me for being the quickest-learning employee they have ever had.</p>
 
                 
             </div>
         </div>
-        <div class="container7 right" data-aos="fade" data-aos-once="true">
+        <div class="container7 right" id="PSS" data-aos="fade" data-aos-once="true">
             <div class="experience PSS">
                 <div class="LogoTitle">
                     <div class="TitleCompany">
@@ -178,14 +192,15 @@
                     </div>
                 <img class="PSSlogo" src="imgs/PSSlogo.png"/>
                 </div>
-                <p>As an executive, I arranged a wide range of events for upto 350 students.
-                My responsibilities included dealing with different vendors to secure the best value for money deals, managing my team,
-                interviewing and training new junior executives.</p>
+                <p>As an executive, I arranged a wide range of events for up to 350 students. My 
+                    responsibilities included dealing with different vendors to secure the best value for money deals, 
+                    managing my team, and interviewing and training new junior executives.
+                </p>
 
                 
             </div>
         </div>
-        <div class="container7 left" data-aos="fade" data-aos-once="true">
+        <div class="container7 left" id="Temple" data-aos="fade" data-aos-once="true">
             <div class="experience TS">
                 <div class="LogoTitle">
                     <div class="TitleCompany">
@@ -198,11 +213,11 @@
                 </div>
                 <p> I used to oversee all the IT-related problems while
                     keeping track of the company website and taking customer calls to help them navigate. 
-                    I developed a new menu with updated combos increasing the sales by 40%.</p>
+                    I developed a new menu with updated combos increasing sales by 40%.</p>
                 
             </div>
         </div>
-        <div class="container7 right" data-aos="fade" data-aos-once="true">
+        <div class="container7 right" id="PU" data-aos="fade" data-aos-once="true">
             <div class="experience CEES">
                 <div class="LogoTitle">
                     <div class="TitleCompany">
@@ -225,8 +240,8 @@
     </div>
 
     <div class="container9">
-        <h2 data-aos="fade" data-aos-once="true">Projects</h2>
-        <div class="carRental" data-aos="fade" data-aos-once="true">
+        <h2 data-aos="fade" id="Project" data-aos-once="true">Projects</h2>
+        <div class="carRental" id="RentMyRide" data-aos="fade" data-aos-once="true">
             <p><strong>RentMyRide</strong></p>
             <p>RentMyRide is a car rental website that allows renters and loaners to register their accounts. Loaners are able to add their cars and they get stored 
                 in the database. The renters are then able to rent these cars on the dates that are available. Moreover, the website includes functionalities such as 
@@ -242,7 +257,7 @@
             </div>
             <p  class="note"><strong>Note:</strong> Drop down menus and file attachment screens are not displayed for privacy purposes</p>
         </div>
-        <div class="studentHub" data-aos="fade" data-aos-once="true">
+        <div class="studentHub" id="StudentHub" data-aos="fade" data-aos-once="true">
             <p><strong>UofC StudentHub</strong></p>
             <p>UofC StudentHub is a student-driven website. It allows the University of Calgary students to register on the website using their UCID and only then 
                 they can have access to all the resources. Once logged in the user is able to search for any course and if it is not available on the website, the 
